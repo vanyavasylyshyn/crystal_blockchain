@@ -1,18 +1,24 @@
-# crystal_blockchain
+# PoW Blockchain made on Crystal programming language
 
-TODO: Write a description here
+Small proof of work blockchain made by [tutorial](https://www.toptal.com/blockchain/crystal-programming-language-tutorial)
 
-## Installation
+## Requirements
 
-TODO: Write installation instructions here
+`crystal` installed
 
 ## Usage
 
-TODO: Write usage instructions here
+`crystal run src/server.cr`
 
-## Development
+## Abilities
 
-TODO: Write development instructions here
+`GET /chain`             - get current state of chain <br/>
+`GET /mine`              - mine block <br/>
+`GET /pending`           - get pending transactions <br/>
+`POST /transactions/new` - create new transaction <br/>
+`POST /nodes/register`   - register node <br/>
+`GET /nodes/resolve`     - sync nodes <br/>
+
 
 ## Contributing
 
